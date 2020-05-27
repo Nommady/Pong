@@ -1,0 +1,9 @@
+.bola{
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 220px;
+    left: 640px;
+    border-radius: 50%;
+}

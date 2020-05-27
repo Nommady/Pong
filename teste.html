@@ -1,0 +1,19 @@
+<HTML>
+    <HEAD><TITLE>Obter o código da tecla pressionada</TITLE>
+    </HEAD>
+    <BODY>
+    
+    <p>Experimente pressionar qualquer tecla e uma 
+    mensagem mostrará o código da tecla pressionada.</p>
+    
+    <script language="JavaScript">
+      function tecla(){
+          if (event.keyCode == 119)
+        window.alert("A tecla pressionada foi W ");
+      }
+      
+      document.body.onkeypress = tecla;
+    </script>
+    
+    </BODY>
+    </HTML>

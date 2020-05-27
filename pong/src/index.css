@@ -1,0 +1,14 @@
+@font-face{
+    font-family: "Pixel";
+    src: url("./fonts/Pixel.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Pixel";
+}
+h1{
+    margin-left: calc(50% - 25px);
+    font-size: 3em;
+}

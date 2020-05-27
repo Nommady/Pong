@@ -1,0 +1,9 @@
+.player2{
+    float: right;
+    background-color: #ffffff;
+    height: 50px;
+    width: 10px;
+    position: absolute;
+    top: 200px;
+    right:220px;
+}

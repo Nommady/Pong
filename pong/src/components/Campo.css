@@ -1,0 +1,33 @@
+.Campo{
+    color: #ffffff;
+    background-color: black;
+    margin-left: calc(50% - 500px);
+    margin-top: 20px;
+    width: 1000px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 0.1fr 1fr;
+    grid-template-rows: 1fr;     
+}
+.Campo .lado1{
+    grid-area: 1 / 1 / 2 / 3;
+}
+.Campo .lado2{
+    grid-area: 1 / 3 / 2 / 4;
+}
+.linha{
+    margin-top: 10px;
+    margin-left: 40px;
+    border: none;
+    border-left: dotted #ffffff;     
+    grid-area: 1 / 2 / 2 / 3; 
+}
+.scoreP1{
+    margin: 10px;
+    font-size: 3em;
+}
+.scoreP2{
+    float: right;
+    margin: 10px;
+    font-size: 3em;
+}
