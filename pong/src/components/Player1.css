@@ -3,8 +3,15 @@
     height: 50px;
     width: 10px;
     position: relative;
-    top: 200px;
     left: 220px;
     border: none;
     outline: none;
+    transition: .7s
+}
+
+.up{
+    margin-bottom: 100px !important;
+}
+.down{
+    margin-top: 100px !important;
 }

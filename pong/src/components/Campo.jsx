@@ -4,11 +4,17 @@ import Player2 from '../components/Player2'
 import Bola from '../components/Bola'
 import './Campo.css'
 
-addEventListener("keydown", function (event){
-    if (event.keyCode == 115) {
-        document.getElementById('play1').style.marginTop = 15 + 'px'
+
+var p1Press = document.addEventListener("keydown", function (event) {
+    if (event.keyCode == 87) {
+        document.getElementById('play1').classList.remove('down')
+        document.getElementById('play1').classList.add('up')
+    }else if(event.keyCode == 83){
+        document.getElementById('play1').classList.remove('up')
+        document.getElementById('play1').classList.add('down')
     }
 })
+
 
 //document.body.onkeypress = MovDown;
 
